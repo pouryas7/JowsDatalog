@@ -1,4 +1,4 @@
-# jowsdatalog
+# JowsDatalog
 
 Jointly-Weakly-Sticky (JWS) Datalog+/- is an expressive member of Datalog+/-
 programs. It is characterized by marking procedure, the existential dependency
