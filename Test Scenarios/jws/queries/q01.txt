@@ -1,0 +1,1 @@
+Q01(id,patient) ?- treatment(id,patient,hospital,npi,conf1).
