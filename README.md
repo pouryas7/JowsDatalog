@@ -17,6 +17,15 @@ in which SChQAS and MagicD+ are implemented.
 # Prerequisites
 The user must provide an database connection information, including username, password, db address, db port, and db name. The recomended RDBMS software is [PostgreSQL].  JowsDatalog is a java based tool and needs [JRE].
 
+
+
+# How to run the binary
+Executing JowsDatalog can be done by running following command from command line:
+```sh
+$ java -jar /PATH_TO_JOWSDATALOG_DIR/JowsDatalog.jar
+```
+But, before running this command make sure that you have edited the config file. 
+
 # Config File
 
 This file has following parameters which must be provided by the user:
@@ -41,14 +50,6 @@ This file has following parameters which must be provided by the user:
   - use_basicApproach: Whether the tool should use basic approach or not (true/false); preferably false
   - load_CSV: Whether to load CSVs or not (true/false).
   - printQans: Whether to show the answers to queries or not (true/false).
-
-# How to run the binary
-Executing JowsDatalog can be done by running following command from command line:
-```sh
-$ java -jar /PATH_TO_JOWSDATALOG_DIR/JowsDatalog.jar
-```
-But, before running this command make sure that you have edited the config file. 
-
 
 [PostgreSQL]: <http://www.postgresqltutorial.com/>
 [JRE]: <https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html>
